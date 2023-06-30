@@ -34,17 +34,10 @@ a
     width: 100%;
     z-index: 99;
 }
- /*.cabecera .menu
-{
-   display: inline-block;
-    vertical-align: middle;
-    margin-left: 20%;
-    text-align: center;   
-}*/
 .cabecera .contenedor
 {
     display: flex;
-    justify-content: space-between; /*Separa el menu del logo*/
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -69,7 +62,7 @@ a
     padding-right: 15px;
     
 }
-/*Tamaño de las columnas*/
+
 .columna-100
 {
     width: 90%;
@@ -120,9 +113,6 @@ a
     margin-right: -15px;
     display: flex;
     flex-wrap: wrap;
-    /*align-items: stretch; /*Poner al mismo tamaño de la columna con mas contenido*/
-    /*align-items: center; Poner al centro de la columna con mas contenido*/
-    /*align-items: flex-end; Poner al pie de la columna con mas contenido*/
 }
 .fila-img
 {
@@ -142,7 +132,6 @@ a
     height: 300px;
     display: block;  
 }
-/*Cuando tiene id*/
 #imagen-fondo
 {
     background-image: url("../img/fondom.jpeg");
